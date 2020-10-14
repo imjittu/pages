@@ -3,9 +3,8 @@ kind: ConfigMap
 metadata:
   name: flyway-configmap
   namespace: delta
-  data:
+data:
   spring.datasource.username: root
-
   V1__inital_schema.sql: |
     USE pages;
     create table pages(
