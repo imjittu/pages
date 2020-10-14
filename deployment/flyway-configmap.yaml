@@ -2,8 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: flyway-configmap
-  namespace: [student-name]
-data:
+  namespace: delta
+  data:
   spring.datasource.username: root
 
   V1__inital_schema.sql: |
