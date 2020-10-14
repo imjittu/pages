@@ -52,7 +52,7 @@ spec:
               value: "*"
           volumeMounts:
              - name: node-dir
-               mountPath: /[student-name]
+               mountPath: /delta
           readinessProbe:
             tcpSocket:
               port: 8080
