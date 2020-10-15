@@ -50,6 +50,8 @@ spec:
               value: debug
             - name: MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE
               value: "*"
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:mysql://pages-mysql/pages?allowPublicKeyRetrieval=true&useSSL=false
           volumeMounts:
              - name: node-dir
                mountPath: /delta
